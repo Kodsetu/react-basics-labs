@@ -36,7 +36,7 @@ function App() {
           priority={task.priority}
           done={task.done}
           markDone={() => doneHandler(index)}
-          deleteTask = {() => deleteHandeler(index)}
+          deleteTask = {() => deleteHandler(index)}
         />
       ))}
     </div>
